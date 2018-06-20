@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Michael Icebreaker</title>
+		 <!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<style>
+			#name {
+				color:white;
+				background-color:orange;
+			}
+			img {
+				width: auto;
+				height: 400px;
+				max-height: 400px;
+			}
+			#navigation {
+				position: sticky;
+				top: 0;				
+			}
+		</style>
+    </head>
+
+    <body>
+		<nav id="navigation" class="navbar navbar-inverse navbar-fixed-top">
+    		<div class="container-fluid">
+    			<div class="navbar-header">
+					<a class="navbar-brand" href="#">Michael</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li class=""><a href="#interests">Interests</a></li>
+					<li><a href="#education">Education</a></li>
+					<li><a href="#schedule">Schedule</a></li>
+					<li><a href="#greatwall">The Great Wall of Pugs</a></li>
+				</ul>
+    		</div>
+    	</nav>
+
+		<div class="container-fluid">
+			<h1 id="name" class="text-center jumbotron">Michael Leung</h1>
+		</div>
+		
+		<!-- mostly stolen from W3Schools -->
+		<div id="interests" class="container">
+			<h2 class="text-center">Interests</h2>		
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			  </ol>
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner">
+				<div class="item active">
+					<h3 class="text-center">Web Development</h3>
+				  <img src="https://davidmles.com/wp-content/uploads/2017/02/html-css-js-768x427.png" alt="html, css, js" class="img-responsive center-block">
+				</div>
+
+				<div class="item">
+					<h3 class="text-center">Arduino</h3>
+				  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/2000px-Arduino_Logo.svg.png" alt="arduino" class="img-responsive center-block">
+				</div>
+
+				<div class="item">
+					<h3 class="text-center">Pugs</h3>
+				  <img " src="http://www.melharco-pugs.com/uploads/3/7/6/7/3767946/1_orig.jpg" alt="pugs" class="img-responsive center-block">
+				</div>
+			  </div>
+			  <!-- Left and right controls -->
+			  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+				<span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+				<span class="sr-only">Next</span>
+			  </a>
+		</div>		
+				
+		<div id="education" class="container text-center">
+			<h2>Education</h2>
+				<p id="education">University of Waterloo<br>
+                2nd year computer engineering</p>
+			</ul>
+			<a href="#education">
+				<button type="button" class="btn">jump here</button>
+			</a>
+		</div>
+
+        <div id="schedule" class="container">
+	        <h2 class="text-center">Schedule</h2>
+	        <table class="table table-bordered table-hover table-responsive">
+	        	<tr>
+	        		<th>Monday</th>
+	        		<th>Tuesday</th>
+	        		<th>Wednesday</th>
+	        		<th>Thursday</th>
+	        		<th>Friday</th>
+	        	</tr>
+	        	<tr>
+	        		<td></td>
+	        		<td>CNC Committee Meeting</td>
+	        		<td>CNC General Meeting</td>
+	        		<td>CNC Education Meeting</td>
+	        		<td></td>
+	        	</tr>
+	        	<tr>
+	        		<td>running</td>
+	        		<td></td>
+	        		<td></td>
+	        		<td></td>
+	        		<td></td>
+	        	</tr>
+	        	<tr>
+	        		<td></td>
+	        		<td></td>
+	        		<td></td>
+	        		<td></td>
+	        		<td>groceries</td>
+	        	</tr>
+	        	<tr>
+	        		<td></td>
+	        		<td>physics</td>
+	        		<td>physics</td>
+	        		<td>physics</td>
+	        		<td></td>
+	        	</tr>
+	        </table>
+        </div>
+		
+		<div id="greatwall" class="container-fluid">
+			<h2 class="text-center">The Great Wall of Pugs</h2>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<a href="https://i.ytimg.com/vi/wRx3Uvcktm8/maxresdefault.jpg">
+							<img class="pug" src="https://i.ytimg.com/vi/wRx3Uvcktm8/maxresdefault.jpg" alt="red-pug" title="red-pug">
+						</a>
+					</div>
+					<div class="thumbnail">
+						<img class="pug" src="http://www.pupfans.com/wp-content/uploads/sites/734/2016/05/two-pug-puppies.jpg">
+						<p class="caption">doin a snooze</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<a href="http://www.pupfans.com/wp-content/uploads/sites/734/2015/09/Pug-puppy.jpg">
+							<img class="pug" src="http://www.pupfans.com/wp-content/uploads/sites/734/2015/09/Pug-puppy.jpg" alt="grass-pug" title="grass-pug">
+						</a>
+						<p class="caption">sad doggo</p>
+					</div>
+					<div class="thumbnail">
+						<img class="pug" src="https://www.heavenlyhomeofpets.com/wp-content/uploads/2017/09/Buster-kin.jpg">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<a href="images/pug-hand.jpg">
+							<img class="pug" src="images/pug-hand.jpg" alt="smoll-pug" title="smoll-pug">
+						</a>
+						<p class="caption">smoll pupper</p>
+					</div>
+				</div>
+			</div>
+		</div>
+    </body>
+	
+</html>
