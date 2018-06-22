@@ -25,15 +25,14 @@
 				height: 400px;
 				max-height: 400px;
 			}
-			#navigation {
-				position: sticky;
-				top: 0;				
+			.nav-anchor {
+				padding-top: 50px;
 			}
 		</style>
     </head>
 
     <body>
-		<nav id="navigation" class="navbar navbar-inverse navbar-fixed-top">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
     		<div class="container-fluid">
     			<div class="navbar-header">
 					<a class="navbar-brand" href="#">Michael</a>
@@ -47,13 +46,13 @@
     		</div>
     	</nav>
 
-		<div class="container-fluid">
+		<div class="container-fluid nav-anchor">
 			<h1 id="name" class="text-center jumbotron">Michael Leung</h1>
 		</div>
-		
+
 		<!-- mostly stolen from W3Schools -->
-		<div id="interests" class="container">
-			<h2 class="text-center">Interests</h2>		
+		<div id="interests" class="container nav-anchor">
+			<h2 class="text-center">Interests</h2>
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 			  <!-- Indicators -->
 			  <ol class="carousel-indicators">
@@ -87,9 +86,9 @@
 				<span class="glyphicon glyphicon-chevron-right"></span>
 				<span class="sr-only">Next</span>
 			  </a>
-		</div>		
-				
-		<div id="education" class="container text-center">
+		</div>
+
+		<div id="education" class="container text-center nav-anchor">
 			<h2>Education</h2>
 				<p id="education">University of Waterloo<br>
                 2nd year computer engineering</p>
@@ -99,7 +98,7 @@
 			</a>
 		</div>
 
-        <div id="schedule" class="container">
+        <div id="schedule" class="container nav-anchor">
 	        <h2 class="text-center">Schedule</h2>
 	        <table class="table table-bordered table-hover table-responsive">
 	        	<tr>
@@ -139,8 +138,8 @@
 	        	</tr>
 	        </table>
         </div>
-		
-		<div id="greatwall" class="container-fluid">
+
+		<div id="greatwall" class="container-fluid nav-anchor">
 			<h2 class="text-center">The Great Wall of Pugs</h2>
 			<div class="row">
 				<div class="col-md-4">
@@ -176,5 +175,5 @@
 			</div>
 		</div>
     </body>
-	
+
 </html>
