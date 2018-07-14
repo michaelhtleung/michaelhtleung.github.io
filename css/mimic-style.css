@@ -61,11 +61,13 @@ hr {
 	color: #70767C;
 }
 #portfolio img {
-	/*height: 300px;
+	height: 300px;
 	max-height: 300px;
-	width: auto;*/
+	width: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
-.portfolio-img:hover {
+#portfolio img:hover {
 	opacity: 0.75;
 }
 .flex-container {
@@ -95,6 +97,14 @@ hr {
 	background-color: #70767C;
 	color: #74D9E4;
 	text-align: center;
+}
+#portfolio .button-container {	
+	display: flex;
+	justify-content: center;
+}
+#portfolio .button-container button {
+	margin-left: 5px;
+	margin-right: 5px;
 }
 #contact {
 	background-color: #74D9E4;
