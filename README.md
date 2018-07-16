@@ -18,8 +18,9 @@ Welcome to my website portfolio! This is where you can see the projects I have m
 - [x] Resize all project pictures to have a 4:3 aspect ratio
 - [x] Fix hamburger menu
 - [x] Add clickable links to each project picture
+- [ ] Refactor all JavaScript code to .js files only
 - [ ] Add "swing" scrolling from navbar
-- [ ] Add image filtering from buttons
+- [x] Add image filtering from buttons
 - [ ] Add image animations when appearing and disappearing
 - [ ] Add playable clips/gifs for each project when clicked on
 - [ ] Add project title for each project when hovered over

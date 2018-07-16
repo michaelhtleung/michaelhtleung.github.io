@@ -22,6 +22,7 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
 		<link rel="stylesheet" href="css/mimic-style.css">
+		<!-- script type="text/javascript" src="js/project-button-effects.js"></script -->
 	</head>
 
 	<body>
@@ -79,10 +80,10 @@
 				<h1>Portfolio</h1>
 				<hr>
 				<div class="button-container">
-					<button type="button" class="btn col-xs-2">All</button>
-					<button type="button" class="btn col-xs-2">Web Dev</button>
-					<button type="button" class="btn col-xs-2">Game Dev</button>
-					<button type="button" class="btn col-xs-2">Hardware</button>
+					<button id="all" type="button" class="btn col-xs-2">All</button>
+					<button id="web-dev" type="button" class="btn col-xs-2">Web Dev</button>
+					<button id="game-dev" type="button" class="btn col-xs-2">Game Dev</button>
+					<button id="hardware" type="button" class="btn col-xs-2">Hardware</button>
 				</div>
 				<div class="project-container">
 					<div id="pong" class="game-dev">
@@ -109,8 +110,33 @@
 						</a>
 					</div>
 				</div>
+				<br>
+				<br>
 			</div>
 		</div>
+
+		<!-- portfolio button effects (JavaScript & jQuery): -->
+		<script>
+			function hideAll(){
+				$(".project-container div").hide();
+			}
+			$("#all").click(function(){
+				hideAll();
+				$(".project-container div").show();
+			});
+			$("#web-dev").click(function(){
+				hideAll();
+				$(".web-dev").show();
+			});			
+			$("#game-dev").click(function(){
+				hideAll();
+				$(".game-dev").show();
+			});			
+			$("#hardware").click(function(){
+				hideAll();
+				$(".hardware").show();
+			});	
+		</script>
 
 		<!-- contact section, equips reader with means of reaching out to me easily -->
 		<div id="contact" class="container-fluid nav-anchor">
