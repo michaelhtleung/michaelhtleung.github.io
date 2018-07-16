@@ -111,6 +111,9 @@ hr {
 	justify-content: center;
 	flex-wrap: wrap;
 }
+#portfolio img {
+	margin: 10px;
+}
 #contact {
 	background-color: #74D9E4;
 }

@@ -15,7 +15,7 @@ Welcome to my website portfolio! This is where you can see the projects I have m
 - [x] Fix buttons
 - [x] Swap in real pictures
 - [x] Organize project pictures in a flexbox instead of Bootstrap grid
-- [ ] Resize all project pictures to have a 4:3 aspect ratio
+- [x] Resize all project pictures to have a 4:3 aspect ratio
 - [x] Fix hamburger menu
 - [x] Add clickable links to each project picture
 - [ ] Add "swing" scrolling from navbar
@@ -23,6 +23,6 @@ Welcome to my website portfolio! This is where you can see the projects I have m
 - [ ] Add image animations when appearing and disappearing
 - [ ] Add playable clips/gifs for each project when clicked on
 - [ ] Add project title for each project when hovered over
-- [ ] Make projects link to their github repository
+- [x] Make projects link to their github repository
 - [ ] Add resume to "About Me" section
 - [ ] Add a work history section
