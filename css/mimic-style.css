@@ -70,11 +70,13 @@ hr {
 #portfolio img:hover {
 	opacity: 0.75;
 }
+
+/* not in use
 .flex-container {
 	display: flex;
-	flex-direction: row;
+	flex-direction: wrap;
 	justify-content: center;
-}
+} */
 #home {
 	color: white;
 	background-color: #70767C;
@@ -119,8 +121,8 @@ hr {
 }
 #michael-suit {
 	display: block;
-	height: 300px;
-	width: auto;
+	height: auto;
+	max-width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 20px;
