@@ -2,165 +2,175 @@
 <html lang="en">
 
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143646148-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-143646148-1');
+	</script>
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>Michael Leung</title>
-		<!-- jQuery CDN (Bootstrap relies on jQuery) -->
-		<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<!-- jQuery CDN (Bootstrap relies on jQuery) -->
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 
-		<!-- jQuery UI CDN -->
-		<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js" integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk=" crossorigin="anonymous"></script>
+	<!-- jQuery UI CDN -->
+	<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js" integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk=" crossorigin="anonymous"></script>
 
-		<!-- Bootstrap 3: Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- Bootstrap 3: Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-		<!-- Bootstrap 3: Latest compiled JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- Bootstrap 3: Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-		<!-- Font Awesome's Glyphicons -->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<!-- Font Awesome's Glyphicons -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
-		<link rel="stylesheet" href="css/mimic-style.css">
-		<!-- script type="text/javascript" src="js/project-button-effects.js"></script -->
-	</head>
+	<link rel="stylesheet" href="css/mimic-style.css">
+	<!-- script type="text/javascript" src="js/project-button-effects.js"></script -->
+</head>
 
-	<body>
-		<!-- navbar mostly taken from w3schools -->
-		<nav class="navbar navbar-inverse navbar-fixed-top text-uppercase">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span> 
-					</button>
-					<a class="navbar-brand" href="#">Michael</a>
-				</div>
-				<div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#home">Home</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#portfolio">Portfolio</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</div>
+<body>
+	<!-- navbar mostly taken from w3schools -->
+	<nav class="navbar navbar-inverse navbar-fixed-top text-uppercase">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Michael</a>
 			</div>
-		</nav>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
-		<!-- home section, michael -->
-		<div id="home" class="container-fluid nav-anchor">
-			<h1 id="name">Michael Leung</h1>
-			<h2 id="tagline">Web Developer</h2>
-			<a href="#about">
-				<button type="button" class="btn center-block" style="color:#70767C">Learn More</button>
+	<!-- home section, michael -->
+	<div id="home" class="container-fluid nav-anchor">
+		<h1 id="name">Michael Leung</h1>
+		<h2 id="tagline">Web Developer</h2>
+		<a href="#about">
+			<button type="button" class="btn center-block" style="color:#70767C">Learn More</button>
+		</a>
+	</div>
+
+	<!-- about me section, talks about my interests and education -->
+	<div id="about" class="container-fluid nav-anchor">
+		<h1 class="text-center" style="color:#414A52">About Me</h1>
+		<hr>
+		<div class="container-fluid col-xs-12 col-md-6">
+			<img id="michael-suit" src="images/1B-suit.jpg" alt="michael-suit">
+		</div>
+		<div class="container-fluid col-xs-12 col-md-6">
+			<p>Hi! My name is Michael and I am an aspiring full-stack web developer!</p>
+			<p>I study Computer Engineering at the University of Waterloo and I run a club on campus called Coffee 'n Code where I teach web programming fundamentals to beginners.</p>
+			<p>My interests are mainly web development and teaching, but I also explore game development and hardware in my free time.</p>
+			<a href="#portfolio">
+				<button type="button" class="btn text-uppercase center-block">My Portfolio</button>
 			</a>
 		</div>
+	</div>
 
-		<!-- about me section, talks about my interests and education -->
-		<div id="about" class="container-fluid nav-anchor">
-			<h1 class="text-center" style="color:#414A52">About Me</h1>
+	<!-- portfolio section, showcases my side projects -->
+	<div id="portfolio" class="nav-anchor">
+		<div class="container-fluid">
+			<h1>Portfolio</h1>
 			<hr>
-			<div class="container-fluid col-xs-12 col-md-6">
-				<img id="michael-suit" src="images/1B-suit.jpg" alt="michael-suit">
+			<div class="button-container">
+				<button id="all" type="button" class="btn col-xs-12 col-md-3">All</button>
+				<button id="web-dev" type="button" class="btn col-xs-12 col-md-3">Web Dev</button>
+				<button id="game-dev" type="button" class="btn col-xs-12 col-md-3">Game Dev</button>
+				<button id="hardware" type="button" class="btn col-xs-12 col-md-3">Hardware</button>
 			</div>
-			<div class="container-fluid col-xs-12 col-md-6">
-				<p>Hi! My name is Michael and I am an aspiring full-stack web developer!</p>
-				<p>I study Computer Engineering at the University of Waterloo and I run a club on campus called Coffee 'n Code where I teach web programming fundamentals to beginners.</p>
-				<p>My interests are mainly web development and teaching, but I also explore game development and hardware in my free time.</p>
-				<a href="#portfolio">
-					<button type="button" class="btn text-uppercase center-block">My Portfolio</button>
-				</a>
-			</div>
-		</div>
-
-		<!-- portfolio section, showcases my side projects -->
-		<div id="portfolio" class="nav-anchor">
-			<div class="container-fluid">
-				<h1>Portfolio</h1>
-				<hr>
-				<div class="button-container">
-					<button id="all" type="button" class="btn col-xs-12 col-md-3">All</button>
-					<button id="web-dev" type="button" class="btn col-xs-12 col-md-3">Web Dev</button>
-					<button id="game-dev" type="button" class="btn col-xs-12 col-md-3">Game Dev</button>
-					<button id="hardware" type="button" class="btn col-xs-12 col-md-3">Hardware</button>
+			<div class="project-container">
+				<div id="pong" class="game-dev">
+					<a href="https://github.com/michaelhtleung/Pong" target="_blank">
+						<img src="images\projects\game-dev\cropped\pong.png" alt="pong" class="img-responsive center-block">
+					</a>
 				</div>
-				<div class="project-container">
-					<div id="pong" class="game-dev">
-						<a href="https://github.com/michaelhtleung/Pong" target="_blank">
-							<img src="images\projects\game-dev\cropped\pong.png" alt="pong" class="img-responsive center-block">
-						</a>
-					</div>
-					<div id="pool" class="game-dev">
-						<a href="https://github.com/michaelhtleung/Pool" target="_blank">
-							<img src="images\projects\game-dev\cropped\pool.png" alt="pool" class="img-responsive center-block">
-						</a>
-					</div>
-					<div id="shoot-em-up" class="game-dev">
-						<a href="https://github.com/michaelhtleung/Shoot-em-Up" target="_blank">
-							<img src="images\projects\game-dev\cropped\shoot-em-up.png" alt="shoot-em-up" class="img-responsive center-block">
-						</a>
-					</div>
-					<div id="crystal-radio" class="hardware">
-						<img src="images\projects\hardware\cropped\crystal-radio.png" alt="crystal radio" class="img-responsive center-block">
-					</div>
-					<div id="archery" class="web-dev">
-						<a href="https://github.com/michaelhtleung/Archery" target="_blank">
-							<img src="images\projects\web-dev\cropped\archery.png" alt="archery" class="img-responsive center-block">
-						</a>
-					</div>
+				<div id="pool" class="game-dev">
+					<a href="https://github.com/michaelhtleung/Pool" target="_blank">
+						<img src="images\projects\game-dev\cropped\pool.png" alt="pool" class="img-responsive center-block">
+					</a>
 				</div>
-				<br>
-				<br>
+				<div id="shoot-em-up" class="game-dev">
+					<a href="https://github.com/michaelhtleung/Shoot-em-Up" target="_blank">
+						<img src="images\projects\game-dev\cropped\shoot-em-up.png" alt="shoot-em-up" class="img-responsive center-block">
+					</a>
+				</div>
+				<div id="crystal-radio" class="hardware">
+					<img src="images\projects\hardware\cropped\crystal-radio.png" alt="crystal radio" class="img-responsive center-block">
+				</div>
+				<div id="archery" class="web-dev">
+					<a href="https://github.com/michaelhtleung/Archery" target="_blank">
+						<img src="images\projects\web-dev\cropped\archery.png" alt="archery" class="img-responsive center-block">
+					</a>
+				</div>
 			</div>
+			<br>
+			<br>
 		</div>
+	</div>
 
-		<!-- portfolio button effects (JavaScript & jQuery): -->
-		<script>
-			function hideAll(){
-				$(".project-container div").hide();
-			}
-			$("#all").click(function(){
-				hideAll();
-				$(".project-container div").show();
-			});
-			$("#web-dev").click(function(){
-				hideAll();
-				$(".web-dev").show();
-			});			
-			$("#game-dev").click(function(){
-				hideAll();
-				$(".game-dev").show();
-			});			
-			$("#hardware").click(function(){
-				hideAll();
-				$(".hardware").show();
-			});	
-		</script>
+	<!-- portfolio button effects (JavaScript & jQuery): -->
+	<script>
+		function hideAll(){
+			$(".project-container div").hide();
+		}
+		$("#all").click(function(){
+			hideAll();
+			$(".project-container div").show();
+		});
+		$("#web-dev").click(function(){
+			hideAll();
+			$(".web-dev").show();
+		});
+		$("#game-dev").click(function(){
+			hideAll();
+			$(".game-dev").show();
+		});
+		$("#hardware").click(function(){
+			hideAll();
+			$(".hardware").show();
+		});
+	</script>
 
-		<!-- contact section, equips reader with means of reaching out to me easily -->
-		<div id="contact" class="container-fluid nav-anchor">
-			<h2 class="text-center">Get In Touch</h2>
-			<hr>
-			<div id="glyph-bar" class="flex-container">
-				<a href="mailto:michaelhtleung@gmail.com" target="_blank">
-					<i class="fas fa-envelope glyphicon"></i>
-				</a>
-				<a href="https://github.com/michaelhtleung" target="_blank">
-					<i class="fab fa-github glyphicon"></i>
-				</a>
-				<a href="https://www.linkedin.com/in/michael80/" target="_blank">
-					<i class="fab fa-linkedin-in glyphicon"></i>
-				</a>
-			</div>
+	<!-- contact section, equips reader with means of reaching out to me easily -->
+	<div id="contact" class="container-fluid nav-anchor">
+		<h2 class="text-center">Get In Touch</h2>
+		<hr>
+		<div id="glyph-bar" class="flex-container">
+			<a href="mailto:michaelhtleung@gmail.com" target="_blank">
+				<i class="fas fa-envelope glyphicon"></i>
+			</a>
+			<a href="https://github.com/michaelhtleung" target="_blank">
+				<i class="fab fa-github glyphicon"></i>
+			</a>
+			<a href="https://www.linkedin.com/in/michael80/" target="_blank">
+				<i class="fab fa-linkedin-in glyphicon"></i>
+			</a>
 		</div>
+	</div>
 
-		<!-- footer section, adds grey bar at the bottom of web page -->
-		<div id="footer" class="container-fluid">
-			<br />
-			<br />
-		</div>
+	<!-- footer section, adds grey bar at the bottom of web page -->
+	<div id="footer" class="container-fluid">
+		<br />
+		<br />
+	</div>
 
-	</body>
+</body>
 
 </html>
